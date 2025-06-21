@@ -1,5 +1,5 @@
 import React from 'react'
-import  Experience  from './components'
+import  Experience  from './components/Experiences'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import WhyChooseUs from './components/WhyChooseUs'
@@ -9,7 +9,7 @@ import Materials from './components/Materials'
 import Testimonials from './components/Testimonials'
 import Footer from './components/Footer'
 const App = () => (
-  <div>
+  <div className='bg-black'>
     <Navbar/>
     <Hero/>
     <WhyChooseUs/>
