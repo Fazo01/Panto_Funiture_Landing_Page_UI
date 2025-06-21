@@ -8,7 +8,7 @@ import BangUpinBG from "./Bang Upin_BG.png";
 import BangUpin from "./Bang Upin.png";
 import Experience from "./Experience.png";
 import Fivestar from "./Five_star.png";
-import Fourstar from "./four_star.png";
+import Fourstar from "./four-star.png";
 import IbukSukijan from "./Ibuk Sukijan.png";
 import IbukSukijanBG from "./Ibuk Sukijan_BG.png";
 import IconNextLink from "./icons_form-next-link.png";
@@ -24,7 +24,11 @@ import NyantuyChair from "./Nyantuy Chair.png";
 import PantoLogo from "./Panto.png";
 import Plus from "./plus.png";
 import SakariasArmchair from "./Sakarias Armchair.png";
+import Menu from './menu.svg'
+import Close from './close.svg'
 export {
+  Menu,
+  Close,
   facebook,
   twitter,
   instagram,
