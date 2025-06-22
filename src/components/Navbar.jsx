@@ -1,17 +1,21 @@
 import React from 'react'
 import { useState } from 'react';
 import {PantoLogo,Bag,Menu,Close} from '../assets'
+import { LandingSection } from '../assets'
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   return (
+
     <nav>
-      <div className='flex py-6 justify-between '>
+      
+      {/* <img src={LandingSection} alt="" className='absolute w-full'/> */}
+      <div className='flex py-6 justify-between flex-1 z-10'>
         <img src={PantoLogo} alt="" className='w-[78px] h-[35px] cursor-pointer object-contain'/>
       <ul className='list-none  sm:flex hidden cursor-pointer font-medium text-[18px] text-white '>
-        <li className='mr-[60px] '>Furniture</li>
+        <li className='mr-[60px]'>Furniture</li>
         <li className='mr-[60px]'>Shop</li>
         <li className='mr-[60px]'>About Us</li>
-        <li className='mr-[60px]'>Contact</li>
+        <li className=''>Contact</li>
         
       </ul>
       <div className='flex'>
@@ -38,6 +42,7 @@ const Navbar = () => {
       </div>
   
     </nav>
+    // </div>
   )
 }
 

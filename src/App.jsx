@@ -8,11 +8,14 @@ import Experiences from './components/Experiences'
 import Materials from './components/Materials'
 import Testimonials from './components/Testimonials'
 import Footer from './components/Footer'
+import { LandingSection } from './assets'
 const App = () => (
   <div className='bg-gray-400 w-full overflow-hidden'>
-    <div className='sm:px-24 px-10 flex justify-center items-center'>
-      <div className='xl:max-w-[1440px] w-full'>
-        <Navbar/>
+    <div className="relative max-w-[1440-px] h-[1084px] bg-cover bg-center" style={{ backgroundImage: `url(${LandingSection})` }}>
+      <div className='sm:px-18 px-6'>
+        <div className='w-full'>
+          <Navbar/>
+        </div>
       </div>
     </div>
     <Hero/>
