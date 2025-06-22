@@ -11,7 +11,7 @@ import Footer from './components/Footer'
 import { LandingSection } from './assets'
 const App = () => (
   <div className='bg-white w-full overflow-hidden'>
-    <div className="relative max-w-[1440-px] h-[1084px] bg-cover bg-center" style={{ backgroundImage: `url(${LandingSection})` }}>
+    <div className="relative h-[1084px] bg-cover bg-center object-cover" style={{ backgroundImage: `url(${LandingSection})` }}>
       <div className='sm:px-18 px-6'>
         <div className=' w-full'>
           <Navbar/>

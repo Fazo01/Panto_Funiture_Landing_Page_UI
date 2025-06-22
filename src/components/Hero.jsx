@@ -8,7 +8,7 @@ const Hero = () => {
       
       <div className="mt-15 border-1 border-white p-2 pl-5 flex xs:w-85  h-14 bg-transparent  justify-between rounded-[42px]">
         <input type="text" className='text-[18px] text-[#ffffff] font-normal opacity-[80%] ' placeholder='Search furniture'/>
-        <img src={IconSearch} alt="" className='bg-[#E58411] rounded-full  p-2.5'/>
+        <img src={IconSearch} alt="" className='bg-[#E58411] rounded-full cursor-pointer p-2.5'/>
       </div>
     </div>
   )
