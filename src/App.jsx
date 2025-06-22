@@ -10,15 +10,19 @@ import Testimonials from './components/Testimonials'
 import Footer from './components/Footer'
 import { LandingSection } from './assets'
 const App = () => (
-  <div className='bg-gray-400 w-full overflow-hidden'>
+  <div className='bg-white w-full overflow-hidden'>
     <div className="relative max-w-[1440-px] h-[1084px] bg-cover bg-center" style={{ backgroundImage: `url(${LandingSection})` }}>
       <div className='sm:px-18 px-6'>
-        <div className='w-full'>
+        <div className=' w-full'>
           <Navbar/>
         </div>
       </div>
     </div>
-    <Hero/>
+    <div className='flex justify-center items-start'>
+      <div className=" w-full">
+        <Hero/>
+      </div>
+    </div>
     <WhyChooseUs/>
     <SellingProduct/>
     <Experiences/>
