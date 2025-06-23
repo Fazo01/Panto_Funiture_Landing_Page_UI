@@ -38,8 +38,11 @@ const App = () => (
       <Experiences/>
       </div>
     </div>
-      
-      <Materials/>
+    <div className='sm:pl-18 pl-6 '>
+      <div className="w-full ">
+        <Materials/>
+      </div>
+    </div>
       <Testimonials/>
       <Footer/>
   </div>
