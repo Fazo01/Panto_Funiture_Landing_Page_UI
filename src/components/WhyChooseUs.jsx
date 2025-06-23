@@ -12,7 +12,7 @@ const WhyChooseUs = () => {
             <h4 className='text-2xl font-bold'>
               {choseUs.title}
             </h4>
-            <p className='text-[16px] opacity-80 max-w-[284px]'>
+            <p className='text-[16px] opacity-80 max-w-[284px] text-GrayP'>
               {choseUs.content}
             </p>
             <a href="" className='text-[14px] mt-5 text-OrangeP flex gap-[13px]'>

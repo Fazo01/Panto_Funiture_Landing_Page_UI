@@ -26,14 +26,22 @@ const App = () => (
     <div className="sm:px-18 px-6 flex justify-center items-center">
       <div className="w-full">
       <WhyChooseUs/>
+      </div>
+    </div>
+    <div className="sm:px-18 px-6 flex justify-center items-center">
+      <div className="w-full">
       <SellingProduct/>
+      </div>
+    </div>
+    <div className='sm:pr-18 pr-6 '>
+      <div className="w-full ">
       <Experiences/>
+      </div>
+    </div>
+      
       <Materials/>
       <Testimonials/>
       <Footer/>
-      </div>
-    </div>
-    
   </div>
 )
 export default App

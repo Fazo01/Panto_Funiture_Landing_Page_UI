@@ -13,6 +13,7 @@
       --breakpoint-lg: 1200px;
       --breakpoint-xl: 1700px;
       --color-OrangeP:#E58411;
+      --color-GrayP:#1E1E1E;
 }
 .sidebar {
   -webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
