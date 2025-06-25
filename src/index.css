@@ -5,7 +5,9 @@
   font-family: "Roboto";
 }
 .slick-slide>div{
-  margin: 0 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
 }
 @theme{
       --breakpoint-xs: 480px;
