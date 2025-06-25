@@ -4,6 +4,9 @@
 .font-roboto{
   font-family: "Roboto";
 }
+.slick-slide>div{
+  margin: 0 10px;
+}
 @theme{
       --breakpoint-xs: 480px;
       --breakpoint-ss: 620px;

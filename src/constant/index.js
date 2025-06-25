@@ -1,4 +1,6 @@
-import { BangUpin,BangUpinBG,IbukSukijan,IbukSukijanBG,MpokIna,MpokInaBG,Fourstar,Union } from "../assets";
+import { BangUpin,BangUpinBG,IbukSukijan,IbukSukijanBG,MpokIna,MpokInaBG,Fourstar } from "../assets";
+import { TestimonialsBG } from '../assets'
+
 export const whyChooseUs=[
     {
         id:'whyChooseUs-1',
@@ -23,6 +25,7 @@ export const TestimonialsContent=[
     {   
         id:'Testimonials_1',
         img:BangUpin,
+        ContentBgImg:TestimonialsBG,
         Background:BangUpinBG,
         name:'Bang Upin',
         full_name:'Pedagang Asongan',
@@ -32,6 +35,7 @@ export const TestimonialsContent=[
     {
         id:'Testimonials_2',
         img:IbukSukijan,
+        ContentBgImg:TestimonialsBG,
         Background:IbukSukijanBG,
         name:'Ibuk Sukijan',
         full_name:'Ibu Rumah Tangga',
@@ -42,11 +46,11 @@ export const TestimonialsContent=[
         
         id:'Testimonials_3',
         Background:MpokInaBG,
-        ContentBgImg:Union,
+        ContentBgImg:TestimonialsBG,
         img:MpokIna,
         name:'Mpok Ina',
         full_name:'Karyawan Swasta',
-        content:'“Sangat terjangkau untuk kantong saya yang tidak terlalu banyak“',
+        content:'“Sangat terjangkau untuk kantong saya yang tidak terlalu banyak banyak banyak“',
         star_img:Fourstar,
     },
 ];

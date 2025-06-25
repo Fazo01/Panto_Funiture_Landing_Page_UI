@@ -26,7 +26,9 @@ import Plus from "./plus.png";
 import SakariasArmchair from "./Sakarias Armchair.png";
 import Menu from './menu.svg'
 import Close from './close.svg'
+import TestimonialsBG from "./TestimonialcontentBG.png";
 export {
+  TestimonialsBG,
   Menu,
   Close,
   facebook,

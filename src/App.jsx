@@ -9,6 +9,7 @@ import Materials from './components/Materials'
 import Testimonials from './components/Testimonials'
 import Footer from './components/Footer'
 import { LandingSection } from './assets'
+
 const App = () => (
   <div className='bg-white w-full overflow-hidden'>
     <div className="relative h-[1084px] bg-cover bg-center object-cover" style={{ backgroundImage: `url(${LandingSection})` }}>
