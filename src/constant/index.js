@@ -1,4 +1,4 @@
-import { BangUpin,BangUpinBG,IbukSukijan,IbukSukijanBG,MpokIna,MpokInaBG,Fourstar } from "../assets";
+import { BangUpin,BangUpinBG,IbukSukijan,IbukSukijanBG,MpokIna,MpokInaBG,Fourstar,Union } from "../assets";
 export const whyChooseUs=[
     {
         id:'whyChooseUs-1',
@@ -38,9 +38,11 @@ export const TestimonialsContent=[
         content:'“Makasih Panto, aku sekarang berasa tinggal di apartment karena barang-barang yang terlihat mewah“',
         star_img:Fourstar,
     },
-    {
+    {   
+        
         id:'Testimonials_3',
         Background:MpokInaBG,
+        ContentBgImg:Union,
         img:MpokIna,
         name:'Mpok Ina',
         full_name:'Karyawan Swasta',
