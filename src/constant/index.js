@@ -29,7 +29,7 @@ export const TestimonialsContent=[
         Background:BangUpinBG,
         name:'Bang Upin',
         full_name:'Pedagang Asongan',
-        content:'“Terimakasih banyak, kini ruanganku menjadi lebih mewah dan terlihat mahal“',
+        content:'“Makasih Panto, aku sekarang berasa tinggal di apartment karena barang-barang yang terlihat mewah“',
         star_img:Fourstar,
     },
     {
@@ -50,7 +50,7 @@ export const TestimonialsContent=[
         img:MpokIna,
         name:'Mpok Ina',
         full_name:'Karyawan Swasta',
-        content:'“Sangat terjangkau untuk kantong saya yang tidak terlalu banyak banyak banyak“',
+        content:'“Makasih Panto, aku sekarang berasa tinggal di apartment karena barang-barang yang terlihat mewah“',
         star_img:Fourstar,
     },
 ];
