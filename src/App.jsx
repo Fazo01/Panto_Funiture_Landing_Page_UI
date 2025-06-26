@@ -50,7 +50,7 @@ const App = () => (
       </div>
     </div>
       <div className="w-full bg-GrayFooter">
-        <div className="sm:px-32 px-6">
+        <div className="md:px-32 sm:px-16 px-6">
           <Footer/>
         </div>
       </div>
