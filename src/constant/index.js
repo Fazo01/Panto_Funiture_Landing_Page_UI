@@ -1,4 +1,4 @@
-import { BangUpin,BangUpinBG,IbukSukijan,IbukSukijanBG,MpokIna,MpokInaBG,Fourstar } from "../assets";
+import { BangUpin,BangUpinBG,IbukSukijan,IbukSukijanBG,MpokIna,MpokInaBG,Fourstar,facebook,twitter,instagram } from "../assets";
 import { TestimonialsBG } from '../assets'
 
 export const whyChooseUs=[
@@ -54,3 +54,55 @@ export const TestimonialsContent=[
         star_img:Fourstar,
     },
 ];
+export const FooterLinks=[
+    {
+        title:"Services",
+        Links:[
+            
+            {
+                name:"Email Marketing",
+            },
+            {
+                name:"Campaigns",
+            },
+            {
+                name:"Branding",
+            },
+        ],
+    },
+    {
+        title:"Furniture",
+        Links:[
+            {
+                name:"Beds",
+            },
+            {
+                name:"Chair",
+            },
+            {
+                name:"All",
+            },
+        ],
+    },
+]
+export const FollowUs=[
+    {
+    
+        title:"Follow Us",
+        Links:[
+            {
+                icons:facebook,
+                name:"Facebook",
+            },
+            {
+                icons:twitter,
+                name:"Twitter",
+            },
+            {
+                icons:instagram,
+                name:"Instagram",
+            },
+        ],
+        
+    },
+]

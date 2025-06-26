@@ -49,8 +49,12 @@ const App = () => (
       <Testimonials/>
       </div>
     </div>
+      <div className="w-full bg-GrayFooter">
+        <div className="sm:px-32 px-6">
+          <Footer/>
+        </div>
+      </div>
       
-      <Footer/>
   </div>
 )
 export default App
