@@ -1,4 +1,4 @@
-import { BangUpin,BangUpinBG,IbukSukijan,IbukSukijanBG,MpokIna,MpokInaBG,Fourstar,facebook,twitter,instagram } from "../assets";
+import { BangUpin,BangUpinBG,IbukSukijan,IbukSukijanBG,MpokIna,MpokInaBG,Fourstar,facebook,twitter,instagram ,Fivestar,SakariasArmchair,BaltsarChain,AnjayChar,NyantuyChair,Plus} from "../assets";
 import { TestimonialsBG } from '../assets'
 
 export const whyChooseUs=[
