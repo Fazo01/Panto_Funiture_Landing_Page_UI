@@ -29,7 +29,7 @@ const App = () => (
       <WhyChooseUs/>
       </div>
     </div>
-    <div className="sm:px-18 px-6 flex justify-center items-center">
+    <div className=" flex justify-center items-center">
       <div className="w-full">
       <SellingProduct/>
       </div>

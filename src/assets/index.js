@@ -27,7 +27,10 @@ import SakariasArmchair from "./Sakarias Armchair.png";
 import Menu from './menu.svg'
 import Close from './close.svg'
 import TestimonialsBG from "./TestimonialcontentBG.png";
+import AddIcon from "./Frame 174.png"
 export {
+  
+  AddIcon,
   TestimonialsBG,
   Menu,
   Close,

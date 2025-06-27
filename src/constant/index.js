@@ -1,4 +1,4 @@
-import { BangUpin,BangUpinBG,IbukSukijan,IbukSukijanBG,MpokIna,MpokInaBG,Fourstar,facebook,twitter,instagram ,Fivestar,SakariasArmchair,BaltsarChain,AnjayChar,NyantuyChair,Plus} from "../assets";
+import { BangUpin,BangUpinBG,IbukSukijan,IbukSukijanBG,MpokIna,MpokInaBG,Fourstar,facebook,twitter,instagram ,Fivestar,SakariasArmchair,BaltsarChain,AnjayChar,NyantuyChair,AddIcon} from "../assets";
 import { TestimonialsBG } from '../assets'
 
 export const whyChooseUs=[
@@ -21,6 +21,48 @@ export const whyChooseUs=[
         button:"More Info",
     },
 ];
+export const SellingProducts=[
+    {
+        id:1,
+        ProductImg:SakariasArmchair,
+        chair:'chair',
+        ProductName:'Sakarias Armchair',
+        _5star:Fivestar,
+        DollarSign:'$',
+        price:392,
+        Icon:AddIcon,
+    },
+    {
+        id:2,
+        ProductImg:BaltsarChain,
+        chair:'chair',
+        ProductName:'Baltsar Chain',
+        _5star:Fivestar,
+        DollarSign:'$',
+        price:299,
+        Icon:AddIcon,
+    },
+    {
+        id:3,
+        ProductImg:AnjayChar,
+        chair:'chair',
+        ProductName:'Anjay Chair',
+        _5star:Fivestar,
+        DollarSign:'$',
+        price:519,
+        Icon:AddIcon,
+    },
+    {
+        id:4,
+        ProductImg:NyantuyChair,
+        chair:'chair',
+        ProductName:'Nyantuy Chair',
+        _5star:Fivestar,
+        DollarSign:'$',
+        price:921,
+        Icon:AddIcon,
+    },
+]
 export const TestimonialsContent=[
     {   
         id:'Testimonials_1',
