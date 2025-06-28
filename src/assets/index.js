@@ -28,8 +28,11 @@ import Menu from './menu.svg'
 import Close from './close.svg'
 import TestimonialsBG from "./TestimonialcontentBG.png";
 import AddIcon from "./Frame 174.png"
+import RightIcon from './RightArrowIcon.png'
+import leftIcon from './leftArrowIcon.png'
 export {
-  
+  leftIcon,
+  RightIcon,
   AddIcon,
   TestimonialsBG,
   Menu,
