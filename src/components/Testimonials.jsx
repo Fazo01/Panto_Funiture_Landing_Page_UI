@@ -25,7 +25,7 @@ const Testimonials = () => {
         },
       },
       {
-        breakpoint: 1024,
+        breakpoint: 1060,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
@@ -51,34 +51,36 @@ const Testimonials = () => {
       <div className="w-3/4 mx-auto">
         <Slider {...settings}>
           {TestimonialsContent.map((data) => (
-            <div key={data.id} className="relative w-[370px]">
+            <div key={data.id} className="relative w-[370px] overflow-hidden">
               
               <img
                 src={data.Background}
                 alt=""
-                className="w-full object-cover rounded-[10px]"
+                className="w-full object-cover rounded-[10px] overflow-hidden"
               />
               <div className="absolute bottom-4 inset-x-0 px-2">
                 <img src={data.ContentBgImg} alt="" className="w-full object-cover rounded-[10px]" />
                 
 <div
   className="
-    absolute bottom-[1vw] left-0 right-0 
+    
+    absolute xs:bottom-[1vw] left-0 right-0 xs:top-0 top-5 bottom-10
     px-[2vw] 
     pt-[4vw] xs:pt-[3.5vw] ss:pt-[3vw] sm:pt-[2.5vw] md:pt-[2vw] 
-    flex flex-col justify-center text-center items-center 
-    w-full max-w-[340px] mx-auto ss:mb-5 xs:mb-1 mb-4
+    flex flex-col justify-center text-center items-center xs:gap-0 gap-0
+    w-full max-w-[340px] mx-auto ss:mb-5 xs:mb-1 
   "
 >
   <img
     src={data.img}
     alt=""
     className="
-      w-[7vw] h-[7vw] 
+    
+      w-[9vw] h-[9vw] 
       xs:w-[6vw] xs:h-[6vw] 
       ss:w-[5vw] ss:h-[5vw] 
       sm:w-[4.5vw] sm:h-[4.5vw] 
-      md:w-[4vw] md:h-[4vw] 
+      md:w-[3vw] md:h-[3vw] 
       lg:w-[3.5vw] lg:h-[3.5vw] 
       xl:w-[3vw] xl:h-[3vw] 
       object-cover rounded-full
@@ -87,7 +89,7 @@ const Testimonials = () => {
   <h3
     className="
       font-bold 
-      text-[8px] xs:text-[1.2vw] ss:text-[1.1vw] sm:text-[1vw] md:text-[10px] 
+      text-[12px] xs:text-[1.2vw] ss:text-[1.1vw] sm:text-[1vw] md:text-[10px] 
       mt-[1.5vw] sm:mt-[1.2vw] md:mt-[1vw]
     "
   >
@@ -96,7 +98,7 @@ const Testimonials = () => {
   <h5
     className="
       text-GrayP 
-      text-[7px] xs:text-[1.1vw] ss:text-[1vw] sm:text-[0.9vw] md:text-[9px]
+      text-[10px] xs:text-[1.1vw] ss:text-[1vw] sm:text-[0.9vw] md:text-[9px]
     "
   >
     {data.full_name}
@@ -104,7 +106,7 @@ const Testimonials = () => {
   <p
     className="
       text-GrayP 
-      text-[7px] xs:text-[1.1vw] ss:text-[1vw] sm:text-[0.9vw] md:text-[9px] 
+      text-[9px] xs:text-[1.1vw] ss:text-[1vw] sm:text-[0.9vw] md:text-[9px] 
       mt-[1vw] sm:mt-[0.8vw] md:mt-[0.5vw] 
       leading-[1.2] 
       w-full max-w-[250px]
@@ -119,9 +121,10 @@ const Testimonials = () => {
       w-[20vw] h-[3vw] 
       xs:w-[18vw] xs:h-[2.8vw] 
       ss:w-[16vw] ss:h-[2.6vw] 
-      sm:w-[14vw] sm:h-[2.5vw] 
-      md:w-[12vw] md:h-[2.2vw] 
-      mt-[2vw] sm:mt-[1.5vw] md:mt-[1vw]
+      sm:w-[12vw] sm:h-[2vw] 
+      md:w-[10vw] md:h-[1.5vw] 
+      lg:w-[12vw] lg:h-[2.2vw] 
+      mt-[2vw] sm:mt-[1.5vw] md:mt-[1vw] 
     "
   />
 </div>

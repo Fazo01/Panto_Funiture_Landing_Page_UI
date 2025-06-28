@@ -25,7 +25,7 @@ const Navbar = () => {
       </div>
       <div className={`${
             !toggle ? "hidden" : "flex"
-          } sm:hidden cursor-pointer absolute right-0 w-[100%] min-w-[140px] bg-amber-200 sidebar`}>
+          } sm:hidden cursor-pointer w-[100%] min-w-[140px] bg-black sidebar z-50`}>
             <div className='flex flex-col flex-1 '>
               <img src={Bag} alt="" className='w-[25.5px] sm:hidden h-[28px] cursor-pointer object-contain ' />
               <ul className='list-none flex flex-1 cursor-pointer flex-col  font-medium text-[18px] text-white '>
